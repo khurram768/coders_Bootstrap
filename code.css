@@ -1,0 +1,39 @@
+.container-footer {
+    margin-top: 10px;
+    /* margin-left:22px; */
+    background-color: #00ffa9;
+    margin-top: 43px;
+
+}
+
+.container-footer form {
+    padding-right: 12px;
+}
+
+.container-blog1 {
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-right: 74px;
+    height: 292px;
+    margin-top: 52px;
+}
+
+.container-blog2 {
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-right: 74px;
+    height: 292px;
+    margin-top: 40px;
+}
+
+.team {
+    margin-left: 190px;
+    margin-top: 33px;
+}
+
+/* contact file code */
+/* .contact img{
+    text-align: center;
+    float:right;
+} */
+/* contact file code ends */

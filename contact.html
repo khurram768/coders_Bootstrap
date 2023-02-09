@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="form.css">
+    <!-- JAVASCRIPT FILE LINK -->
+    <script defer src="form.js"></script>
+    <link rel="stylesheet" href="form_submit,html">
+
+
+
+
+</head>
+
+<body>
+    <!-- HTML CODE  -->
+    <p4>
+        <marquee behavior="right" direction="left" scrollamount="20">Ma'am Ammara</marquee>
+    </p4>
+    <div class="error"></div>
+    <fieldset class="field">
+        <legend>REGISTRATION FORM</legend>
+        <form id="form" onsubmit="return validate();" action="form_submit.html">
+            <!-- CODE TO MAKE THE VALUES -->
+
+            <h3>Register<h3>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+                    <h4>Name</h4>
+                    <label for="name" id="lblname" style="color:red; visibility: hidden;">Name is required.</label>
+                    <input type="text" id="name" name="name" placeholder="Enter the name">
+
+
+                    <h4>Contact No.</h4>
+                    <label for="contact" id="lblcontact" style="color:red; visibility: hidden;">Contact is
+                        required.</label>
+                    <input type="text" id="contact" placeholder="Enter Your Contact No.">
+
+                    <h4>Email</h4>
+                    <label for="email" id="lblemail" style="color:red; visibility: hidden;">Email is required.</label>
+                    <input type="text" id="email" placeholder="Enter Your Email">
+
+                    <h4>Password</h4>
+                    <label for="password" id="lblpassword" style="color:red; visibility: hidden;">password is
+                        required.</label>
+                    <input type="text" id="password" placeholder="Enter the Password">
+
+                    <!-- <h4>Repeat Password</h4>
+            <label for="password2" id="lblpassword2" style="color:red; visibility: hidden;" >password2 is required.</label>
+            <input type="text" id="password2" placeholder="Repeat Your Password"> -->
+
+                    <!-- Course options code -->
+                    <h4 id="courses">Choose a Course</h4>
+                    <label for="courses"></label>
+                    <select id="options">
+                        <option value="CS">Computer science</option>
+                        <option value="SE">Software Engineering</option>
+                        <option value="IT">Information Technology</option>
+
+                    </select>
+
+                    <hr>
+                    <p>By creating an account you agree to our <span><a href="">terms & Policy</a></span></p>
+                    <!-- <button id="btn"><b> Register</b></button> -->
+                    <button><b>Register</b></button>
+        </form>
+    </fieldset>
+
+
+    <!-- CODE FOR THE JAVASCRIPT IS HERE -->
+    <script>
+
+    </script>
+
+
+</body>
+
+</html>

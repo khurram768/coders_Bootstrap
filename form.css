@@ -1,0 +1,91 @@
+.field {
+    border: 4px solid rgb(0, 0, 0);
+    width: 622px;
+    /* margin-left: 312px; */
+    margin-left: 590px;
+    box-shadow: -45px 45px 12px;
+    display: inline-block;
+    border-radius: 23px;
+}
+
+body {
+    /* background-color:white;
+     */
+
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+
+    overflow-x: hidden;
+
+}
+
+.btn {
+    background-color: green;
+    width: 614px;
+    padding: 12px;
+
+}
+
+#form input {
+    display: inline-block;
+    width: 691px;
+    height: 44px;
+    border: 2px solid rgb(43 25 234);
+    border-radius: 10px;
+    box-shadow: 2px 4px;
+}
+
+#options {
+    border: 2px solid rgb(43 25 234);
+    border-radius: 162px;
+    height: 32px;
+    box-shadow: 2px 5px;
+}
+
+#options option {
+    background-color: green;
+}
+
+/*submission button styling  */
+button {
+    width: 700px;
+    height: 43px;
+    border-radius: 13px;
+    background-color: green;
+    font-size: 23px;
+
+}
+
+button:hover {
+    background-color: cadetblue;
+}
+
+#lblname {
+    margin-left: 582px;
+}
+
+#lblcontact {
+    margin-left: 560px;
+}
+
+#lblemail {
+    margin-left: 570px;
+}
+
+#lblpassword {
+    margin-left: 560px;
+}
+
+/* #lblpassword2{
+    margin-left: 550px;
+} */
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+p4 {
+    background-color: chartreuse;
+    font-size: 34px;
+}
